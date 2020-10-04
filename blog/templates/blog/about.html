@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% load i18n %}
+{% block content %}
+    <div class="content-section">
+        <div class="mx-auto w-50 p-1">
+            <h1 class="mb-3">{% trans 'You can find us here' %} </h1>
+            <h6 class="mb-3 text-center">
+                E-mail : centrgromadskosti@gmail.com<br>
+                Моб.тел : +380991973646<br>
+                Facebook : https://m.facebook.com/groups/370140663914463/<br>
+            </h6>
+            <iframe
+                    width="650"
+                    height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCWCI0d8KO9iRgqDoISgQ-A9-oUKiAXjMM&q=Kyryla+i+Mefodiia+Square,+30,+Mukacheve,+Zakarpats'ka+oblast,+Ukraine,+89600"
+                    allowfullscreen>
+            </iframe>
+            </div>
+    </div>
+{% endblock content %}

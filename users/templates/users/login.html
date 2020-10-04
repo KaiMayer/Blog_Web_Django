@@ -1,0 +1,40 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_filters %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+        <div class="mx-auto w-50 p-1">
+            <form method="POST" onsubmit="Submit.disabled = true; return true;">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">{% trans "Login" %}</legend>
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-dark" name="Submit" type="submit">{% trans "Login" %}</button>
+                    <small class="text-muted ml-2">
+                        <a href="{% url 'password_reset' %}">{% trans 'Forgot Password?' %}</a>
+                    </small>
+                </div>
+            </form>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    {% trans "Need An Account?" %}
+                    <a class="ml-2" href="{% url 'register' %}">{% trans "Sign Up Now" %}</a>
+                </small>
+            </div>
+            <span class="hr-sect">{% trans 'Or' %}</span>
+            <div class=".row.justify-content-between text-center">
+                <button type="button" class="btn btn-light mb-3">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAB9ElEQVRYhd3Wz4tNYRwG8M8Y7r3ThFjIj42NlEhhSxZiQrEglLWFUqz8CxYWLDT+EX/AZEmKCQ0NC7+GTKLGzJi61+Kckztn3nPOfe89o3jqW+e873m+z/P+Ou+XfxytNP4KmhjDfUxiFp00ZtO2cZxAo07hdbiCT12CVfEVN1PTA+EQXkcI5+MVDvQrfh5zA4hnMY/LseIX0K5BPIt2OqAVGAq0HcRDjEQY/oKXWMIoNmKXZP9k+InDeFKWqCFuzadxvCDXi8D3UzlTK3AtQnwG20pyhQx0cLWI0MTnCAPXy0ZSYmBGwX9iLEK8g505/lE8kizLNH6VcIPLNh4hPhfgT0Xw74UMTEYk+Jjjro/gdvA0I67pSrIj5KoA7dz7aAR3mVZmoIVNkUkGwWa5W7SletoKj08AQ/heka/FnxlYwI9+hlKA7dhQ0v8t1Vy2B97XaGB3Rf+H7GFtV+ME9lQkPZY+L0ruiwwNHOl6P1lhYCLUeEbvxyg/W1sjuB2cChlopolX28A7XZVS9x5YxO2Qs5pxK9UKYkRyr6/WDDzXQxW9V1I81G1gHvurxDNcklQ3dRlYwsVexTOck6zVoAYWcDZWPMM+SQ3Xr4FnkhpzIDRwA28jDLyRVEyl9V8shnEad/Ag17cFj3E3/Wa4TuH/G78B88ZyvCTyMTcAAAAASUVORK5CYII="/>
+                    {% trans 'Sign in with Facebook' %}
+                </button>
+                <button type="button" class="btn btn-light mb-3">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAACS0lEQVRYhe3XPWhUQRAH8F9Ek5joRUU7tdFOC20EUfETyyDIkc50IjaCTbCRmA8kiGJrZ6OlhY2QRkUQhbSCAcFPBE2MYISoFxOL3SPvXt5d3l0u2OQPA+/Nzr7/zOzOzj5W8Z/RUqf9WhzFaWyPAp+ijOIpZpvlYBldGMYU5peQKQyh0CzyHkzkIE7LBIrLIW7BIOYaIC/LHAbUv9RE8kaJ03KtXvIey4s8KxOZy5GVmi68wdaUvoTneI/12I/ddQQ1Ee1/LGU4rNL7WdzAlgzbg3gpfyYGlyJfp7LUSuhOjG/GYeyykL0D0ck8DnwTzpKqOJma0Bf1rbiNP4mxcVyIH80ie4cx4YBK6o/XcmAkYfgZbVF/N2eESTkf5/al9NeThOl07Ew8P8Rv7MW5hH4SD6oE0CssWynOhV/4LmSxM8WxCE8Snl6OuoupCMZqzB/HqSpjxTj/cVJZc0NUQSFFMis43hTctxDpnajbo/ah9CjadWAG00Il9Ub9pfj+M9rfSxKuSTnwIfHcjXa8EjZhFmZwNWW/QSjX8gZuj++dGRyLcCIV3ZWob8UtYWOVx15bKKkOYf3zlOGxWg5kHURnEuObcEjlQdQmVEWe0pyUY98NpSb9xU2LewPhVBzLST4vtOYKZDWjgtCMtqX0JbzAW2E99wmZyIuvQjOazmNc1Px2fLYOZxHS1SwH+uslJyzPgOVfyfo1eCUroyisX73kXzSQ9mooCJeJaq03XWoD2Jjnw438mBwRfkx2RIGPUUbxzAr8mKxixfAPK8ZiryY+Ib0AAAAASUVORK5CYII="/>
+                    {% trans 'Sign in with Google' %}
+                </button>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

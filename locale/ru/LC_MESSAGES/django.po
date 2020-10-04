@@ -1,0 +1,1590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-13 14:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\blog\templates\blog\about.html:9
+msgid "You can find us here"
+msgstr "Здесь можно нас найти"
+
+#: .\blog\templates\blog\base.html:9 .\blog\templates\blog\base.html:57
+#: .\blog\templates\blog\home.html:73
+msgid "Community Centre"
+msgstr "Центр Обществености"
+
+#: .\blog\templates\blog\base.html:67
+msgid "Home"
+msgstr "Главная"
+
+#: .\blog\templates\blog\base.html:69 .\blog\templates\blog\directions.html:3
+msgid "Directions"
+msgstr "Направления"
+
+#: .\blog\templates\blog\base.html:71
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\blog\templates\blog\base.html:74
+msgid "Profile"
+msgstr "Профиль"
+
+#: .\blog\templates\blog\base.html:76
+msgid "Logout"
+msgstr "Выйти"
+
+#: .\blog\templates\blog\base.html:79
+#: .\blog\templates\blog\post_comment.html:28
+#: .\users\templates\users\login.html:11 .\users\templates\users\login.html:15
+msgid "Login"
+msgstr "Войти"
+
+#: .\blog\templates\blog\base.html:81
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: .\blog\templates\blog\comment_confirm_delete.html:8
+msgid "Delete Comment"
+msgstr "Удалить комментарий"
+
+#: .\blog\templates\blog\comment_confirm_delete.html:9
+msgid "Are you sure you want to delete the comment"
+msgstr "Вы уверены что желаете удалить комментарий?"
+
+#: .\blog\templates\blog\comment_confirm_delete.html:12
+msgid "Yes, Delete"
+msgstr "Да, удалить"
+
+#: .\blog\templates\blog\comment_confirm_delete.html:13
+msgid "Cancel"
+msgstr "Отмена"
+
+#: .\blog\templates\blog\edit_comment.html:9
+msgid "Update Your Comment"
+msgstr "Изменить Комментарий"
+
+#: .\blog\templates\blog\edit_comment.html:11
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\blog\templates\blog\home.html:10
+#, fuzzy
+#| msgid "Read More"
+msgid "Read more"
+msgstr "Читать далее"
+
+#: .\blog\templates\blog\home.html:13
+msgid "Scroll Down"
+msgstr "Вниз"
+
+#: .\blog\templates\blog\home.html:76
+msgid "Kyryla i Mefodiia Square, 30, Mukachevо"
+msgstr "г. Мукачево, площа Кирила и Мефодия, 30"
+
+#: .\blog\templates\blog\home.html:77
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: .\blog\templates\blog\home.html:78
+msgid "Email: "
+msgstr "Почта:"
+
+#: .\blog\templates\blog\home.html:87
+msgid "Our Partners"
+msgstr "Наши Партнеры"
+
+#: .\blog\templates\blog\home.html:88
+msgid "Privacy &amp; Policy"
+msgstr "Политика Конфедициальности"
+
+#: .\blog\templates\blog\home.html:89
+msgid "Contact"
+msgstr "Контакты"
+
+#: .\blog\templates\blog\home.html:99
+msgid "2020. All rights reserved."
+msgstr "2020. Все права защищены"
+
+#: .\blog\templates\blog\post_comment.html:18
+msgid "Leave Your Comment"
+msgstr "Оставить комментарий"
+
+#: .\blog\templates\blog\post_comment.html:27
+msgid "Please login in order to post the comment"
+msgstr "Войдите что-бы оставить комментарий"
+
+#: .\blog\templates\blog\post_detail.html:37
+#, fuzzy
+#| msgid "&lsaquo; Previous Photo"
+msgid "Previous Post"
+msgstr "Предыдущее  фото"
+
+#: .\blog\templates\blog\post_detail.html:42
+#, fuzzy
+#| msgid "&lsaquo; Previous Photo"
+msgid "No previous posts"
+msgstr "Предыдущее  фото"
+
+#: .\blog\templates\blog\post_detail.html:47
+msgid "Next Post"
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:53
+msgid "No future posts yet"
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:57
+msgid "New comment"
+msgstr "Новый комментарий"
+
+#: .\blog\templates\blog\post_detail.html:60
+#, fuzzy
+#| msgid "Delete Comment"
+msgid "Post Comments"
+msgstr "Удалить комментарий"
+
+#: .\blog\templates\blog\post_detail.html:95
+#: .\users\templates\users\profile.html:22
+msgid "Update"
+msgstr "Изменить"
+
+#: .\blog\templates\blog\post_detail.html:97
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:391
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\blog\templates\blog\post_detail.html:112
+msgid "There is no comments yet"
+msgstr "Сейчас нету комментариев"
+
+#: .\blog\templates\blog\post_detail.html:117
+msgid "Loading..."
+msgstr ""
+
+#: .\blog\templates\blog\post_detail.html:131
+msgid "Latest Posts"
+msgstr ""
+
+#: .\blog\templates\blog\search.html:5
+#, fuzzy
+#| msgid "Search files"
+msgid "Search"
+msgstr "Поиск файлов"
+
+#: .\blog\templates\blog\search.html:8
+msgid "Posts containing"
+msgstr ""
+
+#: .\blog\templates\blog\search.html:11
+msgid "Found"
+msgstr ""
+
+#: .\blog\templates\blog\search.html:11
+msgid "result"
+msgstr ""
+
+#: .\blog\templates\blog\search.html:18
+msgid "There are no results for your search"
+msgstr ""
+
+#: .\blog\templates\blog\search.html:23
+msgid "Search the blog"
+msgstr ""
+
+#: .\blog\views.py:89
+msgid "Your comment has been added!"
+msgstr "Ваш комментарий опубликован"
+
+#: .\centrgr_env\Lib\site-packages\bootstrap4\components.py:17
+#: .\centrgr_env\Lib\site-packages\bootstrap4\templates\bootstrap4\form_errors.html:3
+#: .\centrgr_env\Lib\site-packages\bootstrap4\templates\bootstrap4\messages.html:4
+msgid "close"
+msgstr "Закрыть"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\forms.py:8
+msgid "Search files"
+msgstr "Поиск файлов"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:5
+msgid "Select an image to embed"
+msgstr "Добавить изображение"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr "Пересмотрите изображение которое хотите встроить и нажмите продолжить"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr "Изображение не найдено добавьте нажимая на кнопку добавить изображение"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:50
+msgid "Images in: "
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:62
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:80
+msgid "Embed Image"
+msgstr "Вставить Изображение"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:146
+msgid "Play Slideshow"
+msgstr "Воспроизвести"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:147
+msgid "Pause Slideshow"
+msgstr "Пауза"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr "Предыдущее  фото"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr "Следующее фото"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:150
+msgid "Next &rsaquo;"
+msgstr "следующее"
+
+#: .\centrgr_env\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:151
+msgid "&lsaquo; Prev"
+msgstr "Предыдущий"
+
+#: .\centrgr_env\Lib\site-packages\crispy_forms\tests\test_form_helper.py:129
+#: .\centrgr_env\Lib\site-packages\crispy_forms\tests\test_form_helper.py:139
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:54
+msgid "This field is required."
+msgstr "Это поле об'язательное"
+
+#: .\centrgr_env\Lib\site-packages\crispy_forms\tests\test_layout.py:360
+msgid "i18n text"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\crispy_forms\tests\test_layout.py:360
+msgid "i18n legend"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\crispy_forms\tests\test_layout_objects.py:129
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:20
+msgid "Enter a valid value."
+msgstr "Введите действительное значение"
+
+#: .\centrgr_env\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
+msgstr "Сообщения"
+
+#: .\centrgr_env\Lib\site-packages\django\contrib\sitemaps\apps.py:7
+msgid "Site Maps"
+msgstr "Карта сайта"
+
+#: .\centrgr_env\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr "Статические файлы"
+
+#: .\centrgr_env\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\paginator.py:48
+msgid "That page number is not an integer"
+msgstr "Номер этой страницы не действителен"
+
+#: .\centrgr_env\Lib\site-packages\django\core\paginator.py:50
+msgid "That page number is less than 1"
+msgstr "Номер страницы ниже 1"
+
+#: .\centrgr_env\Lib\site-packages\django\core\paginator.py:55
+msgid "That page contains no results"
+msgstr "Страница не имеет результатов"
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:91
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:671
+msgid "Enter a valid URL."
+msgstr "Введите правильный URL"
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:145
+msgid "Enter a valid integer."
+msgstr "Введите правильное число"
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:156
+msgid "Enter a valid email address."
+msgstr "Введите правильный адрес почты"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:230
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Введите вверный токен, который должен иметь буквы, цифры, подчерчеркивания и "
+"дефисы "
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:237
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:246
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:266
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:251
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:267
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:261
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:265
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:295
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:301
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:334
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:343
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:353
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:368
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:387
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:292
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:389
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:394
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:399
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:461
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\core\validators.py:513
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\base.py:1187
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:760
+msgid "and"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\base.py:1189
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:100
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:101
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:102
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:103
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:107
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:126
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:939
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:940
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:942
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:983
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1047
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1096
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1098
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1241
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1101
+msgid "Date (without time)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1239
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1243
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1247
+msgid "Date (with time)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1395
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1397
+msgid "Decimal number"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1536
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1539
+msgid "Duration"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1589
+msgid "Email address"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1612
+msgid "File path"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1678
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1680
+msgid "Floating point number"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1718
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1720
+msgid "Integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1803
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1819
+msgid "IPv4 address"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1850
+msgid "IP address"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1930
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1931
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1933
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1976
+msgid "Positive big integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:1989
+msgid "Positive integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2002
+msgid "Positive small integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2016
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2048
+msgid "Small integer"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2055
+msgid "Text"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2083
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2085
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2088
+msgid "Time"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2214
+msgid "URL"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2236
+msgid "Raw binary data"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2301
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\__init__.py:2303
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\files.py:231
+msgid "File"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\files.py:377
+msgid "Image"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:790
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:792
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:1045
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:1099
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:1100
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\db\models\fields\related.py:1142
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\centrgr_env\Lib\site-packages\django\forms\boundfield.py:150
+msgid ":?.!"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:398
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:1139
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:422
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:1140
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:450
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:484
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:485
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:545
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:546
+msgid "No file was submitted."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:547
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:549
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:552
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:613
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:775
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:865
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:1296
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:866
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:981
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:1295
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:982
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:1198
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\fields.py:1228
+#, fuzzy
+#| msgid "Enter a valid URL."
+msgid "Enter a valid JSON."
+msgstr "Введите правильный URL"
+
+#. Translators: This is the default suffix added to form field labels
+#: .\centrgr_env\Lib\site-packages\django\forms\forms.py:78
+msgid ":"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\forms.py:205
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:93
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:345
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:352
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:379
+#: .\centrgr_env\Lib\site-packages\django\forms\formsets.py:386
+msgid "Order"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:755
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:759
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:765
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:774
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:1096
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:1180
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\models.py:1298
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\utils.py:167
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:398
+msgid "Clear"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:399
+msgid "Currently"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:400
+msgid "Change"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:709
+msgid "Unknown"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:710
+msgid "Yes"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\forms\widgets.py:711
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:790
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:819
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:836
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:838
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:840
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:842
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:844
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\template\defaultfilters.py:846
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:65
+msgid "p.m."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:66
+msgid "a.m."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:71
+msgid "PM"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:72
+msgid "AM"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:149
+msgid "midnight"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dateformat.py:151
+msgid "noon"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "January"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "February"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "March"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "April"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "May"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:14
+msgid "June"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:15
+msgid "July"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:15
+msgid "August"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:15
+msgid "September"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:15
+msgid "October"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:15
+msgid "November"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:16
+msgid "December"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "jan"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "feb"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "mar"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "apr"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "may"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:19
+msgid "jun"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "jul"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "aug"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "sep"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "oct"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "nov"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:20
+msgid "dec"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\text.py:70
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\text.py:236
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\centrgr_env\Lib\site-packages\django\utils\text.py:255
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:83
+msgid ", "
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:61
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:111
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:338
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:589
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\dates.py:623
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\static.py:42
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:7
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:346
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:368
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:369
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:384
+msgid "Django Documentation"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:385
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:396
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:397
+msgid "Get started with Django"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:408
+msgid "Django Community"
+msgstr ""
+
+#: .\centrgr_env\Lib\site-packages\django\views\templates\default_urlconf.html:409
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\django_project\settings.py:127 .\django_project\settings.py:128
+#: .\django_project\settings.py:129
+msgid " "
+msgstr ""
+
+#: .\users\forms.py:15
+msgid "Please use email from another service provider."
+msgstr ""
+
+#: .\users\forms.py:20
+#, fuzzy
+#| msgid "Email: "
+msgid "Email exists"
+msgstr "Почта:"
+
+#: .\users\forms.py:25
+msgid "Required unique Email"
+msgstr "Нужен настоящий e-mail"
+
+#: .\users\forms.py:43
+msgid "image"
+msgstr "Картинка"
+
+#: .\users\templates\users\email_template.html:3
+msgid "Hi"
+msgstr "Здравствуйте"
+
+#: .\users\templates\users\email_template.html:4
+msgid "Please click on the link to confirm your registration,"
+msgstr "Нажмите на ссылку чтобы подтвердить регистрацию"
+
+#: .\users\templates\users\login.html:17
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Forgot Password?"
+msgstr "Сменить пароль"
+
+#: .\users\templates\users\login.html:23
+msgid "Need An Account?"
+msgstr "Уже имеете аккаунт?"
+
+#: .\users\templates\users\login.html:24
+msgid "Sign Up Now"
+msgstr "Зарегистрироваться"
+
+#: .\users\templates\users\login.html:27
+#: .\users\templates\users\register.html:14
+msgid "Or"
+msgstr "Или"
+
+#: .\users\templates\users\login.html:31
+#: .\users\templates\users\register.html:18
+msgid "Sign in with Facebook"
+msgstr "Войти с помощью Facebook"
+
+#: .\users\templates\users\login.html:35
+#: .\users\templates\users\register.html:22
+msgid "Sign in with Google"
+msgstr "Войти с помощью Google"
+
+#: .\users\templates\users\logout.html:4
+msgid "You have been logged out"
+msgstr "Вы успешно вышли"
+
+#: .\users\templates\users\logout.html:7
+msgid "Log In Again"
+msgstr "Войти снова"
+
+#: .\users\templates\users\password_reset.html:9
+#: .\users\templates\users\password_reset_confirm.html:9
+msgid "Reset Password"
+msgstr "Сменить пароль"
+
+#: .\users\templates\users\password_reset.html:13
+msgid "Request Password Reset"
+msgstr "Заявка на смену пароля"
+
+#: .\users\templates\users\password_reset_complete.html:5
+#, fuzzy
+#| msgid "Your account has been updated!"
+msgid "Your password has been set"
+msgstr "Ваш аккаунт успешно изменён"
+
+#: .\users\templates\users\password_reset_complete.html:7
+#, fuzzy
+#| msgid "Sign In"
+msgid "Sign in here"
+msgstr "Ввойти"
+
+#: .\users\templates\users\password_reset_confirm.html:13
+msgid "Request Password"
+msgstr "Запрос пароля"
+
+#: .\users\templates\users\password_reset_done.html:5
+msgid "The password change link has been sent to your email"
+msgstr "Ссылка на смену пароля отправлена вам на почту!"
+
+#: .\users\templates\users\profile.html:17
+msgid "Profile Info"
+msgstr "Информация о профиле"
+
+#: .\users\templates\users\register.html:8
+msgid "Join Today"
+msgstr "Присоедениться"
+
+#: .\users\templates\users\register.html:12
+msgid "Sign Up"
+msgstr "Подписаться"
+
+#: .\users\templates\users\register.html:27
+msgid "Already Have An Account?"
+msgstr "Уже имеете аккаунт?"
+
+#: .\users\templates\users\register.html:28
+msgid "Sign In"
+msgstr "Ввойти"
+
+#: .\users\views.py:54
+msgid "Your account has been created! You are now able to log in"
+msgstr "Ваш аккаунт успешно создан!"
+
+#: .\users\views.py:70
+msgid "Your account has been updated!"
+msgstr "Ваш аккаунт успешно изменён"

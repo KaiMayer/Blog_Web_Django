@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+{% block title %}Posts ranking{% endblock %}
+{% block content %}
+ <h1>Posts ranking</h1>
+ <ol>
+ {% for post in most_viewed %}
+ <li>
+ <a href="{{ post.get_absolute_url }}">
+ {{ post.id }},
+ {{ post.title }}
+ </a>
+ </li>
+ {% endfor %}
+ </ol>
+{% endblock %}

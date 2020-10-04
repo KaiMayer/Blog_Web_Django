@@ -1,0 +1,203 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{% load i18n %}
+{% load profanity %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <!-- Latest Posts -->
+            <div class="post blog-post col-lg-8">
+                <div class="container">
+                    <div class="post-single">
+                        <div class="post-thumbnail mb-2"><img src="{{ post.image.url }}" alt="..." class="img-fluid">
+                        </div>
+                        <div class="post-details">
+                            <h1>{{ post.title }}</h1>
+                            <div class="post-footer d-flex align-items-center flex-column flex-sm-row">
+                                <a href="#" class="author d-flex align-items-center flex-wrap">
+                                    <div class="avatar"><img src="{{ post.author.profile.image.url }}"
+                                                             alt="author profile image" class="img-fluid"></div>
+                                    <div class="title"><span>{{ post.author }}</span></div>
+                                </a>
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <div class="date">
+                                        <i class="icon-clock"></i>{{ post.date_posted|date:"F d, Y" }}
+                                    </div>
+                                    <div class="views">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye"
+                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                  d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.134 13.134 0 0 0 1.66 2.043C4.12 11.332 5.88 12.5 8 12.5c2.12 0 3.879-1.168 5.168-2.457A13.134 13.134 0 0 0 14.828 8a13.133 13.133 0 0 0-1.66-2.043C11.879 4.668 10.119 3.5 8 3.5c-2.12 0-3.879 1.168-5.168 2.457A13.133 13.133 0 0 0 1.172 8z"/>
+                                            <path fill-rule="evenodd"
+                                                  d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                                        </svg>
+                                        {{ total_views }} view{{ total_views|pluralize }}
+                                    </div>
+                                    <div class="comments meta-last">
+                                        <i class="icon-comment"></i>{{ post.comments.count }}
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="post-body">
+                                <p>{{ post.content|safe }}</p>
+                            </div>
+                            <div class="posts-nav d-flex justify-content-between align-items-stretch flex-column flex-md-row">
+                                {% if previous_post %}
+                                    <a href="{% url 'post-detail' previous_post.id previous_post.slug %}"
+                                       class="prev-post text-left d-flex align-items-center">
+                                        <div class="icon prev"><i class="fa fa-angle-left"></i></div>
+                                        <div class="text"><strong
+                                                class="text-primary">{% trans 'Previous Post' %} </strong>
+                                            <h6>{{ previous_post.title }}</h6>
+                                        </div>
+                                    </a>
+                                {% else %}
+                                    <p>{% trans 'No previous posts' %}</p>
+                                {% endif %}
+                                {% if next_post %}
+                                    <a href="{% url 'post-detail' next_post.id next_post.slug %}"
+                                       class="next-post text-right d-flex align-items-center justify-content-end">
+                                        <div class="text"><strong class="text-primary">{% trans 'Next Post' %} </strong>
+                                            <h6>{{ next_post.title }}</h6>
+                                        </div>
+                                        <div class="icon next"><i class="fa fa-angle-right"> </i></div>
+                                    </a>
+                                {% else %}
+                                    <p>{% trans 'No future posts yet' %}</p>
+                                {% endif %}
+                            </div>
+                            <a class="btn btn-outline-dark mb-3 " href="{% url 'post_comment' post.id post.slug %}"
+                               role="button">{% trans 'New comment' %}</a>
+                            <div class="post-comments">
+                                <header>
+                                    <h3 class="h6">{% trans 'Post Comments' %}<span
+                                            class="no-of-comments">({{ post.comments.count }})</span></h3>
+                                </header>
+                                <div class="infinite-container">
+                                    {% for comment in comments %}
+                                        <div class="infinite-item">
+                                            <div class="comment">
+                                                <div class="comment-header d-flex justify-content-between">
+                                                    <div class="user d-flex align-items-center">
+                                                        <div class="image"><img
+                                                                src="{{ comment.author.profile.image.url }}" alt="..."
+                                                                class="img-fluid rounded-circle"></div>
+                                                        <div class="title">
+                                                            <strong>{{ comment.author.username }}</strong><span
+                                                                class="date">{{ comment.created|date:'M d, Y H:i' }}</span>
+                                                        </div>
+                                                    </div>
+                                                    {% if comment.author == user %}
+                                                        <div class="row justify-content-end">
+                                                            <div class="dropdown">
+                                                                <button class="btn btn-link" type="button"
+                                                                        id="dropdownMenuButton" data-toggle="dropdown"
+                                                                        aria-haspopup="true" aria-expanded="false"
+                                                                        style="color: #282c34">
+                                                                    <svg class="bi bi-three-dots-vertical" width="1em"
+                                                                         height="1em" viewBox="0 0 16 16"
+                                                                         fill="currentColor"
+                                                                         xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd"
+                                                                              d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                                                    </svg>
+                                                                </button>
+                                                                <div class="dropdown-menu"
+                                                                     aria-labelledby="dropdownMenuButton">
+                                                                    <a class="dropdown-item"
+                                                                       href="{% url 'edit_comment' post.id post.slug comment.id %}">{% trans 'Update' %}</a>
+                                                                    <a class="dropdown-item"
+                                                                       href="{% url 'delete_comment' post.id post.slug comment.id %}">{% trans 'Delete' %}</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    {% endif %}
+                                                </div>
+                                                <div class="comment-body">
+                                                    <p>{% with comment=comment.body|censor %}
+                                                        {{ comment|linebreaks }}
+                                                    {% endwith %}</p>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% empty %}
+                                        <p>{% trans 'There is no comments yet' %}</p>
+                                    {% endfor %}
+                                </div>
+
+                                <div class="loading" style="display: none;">
+                                    {% trans 'Loading...' %}
+                                </div>
+                                {% if comments.has_next %}
+                                    <a class="infinite-more-link" href="?page={{ comments.next_page_number }}"></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="col-lg-4">
+                <!-- Widget [Latest Posts Widget]        -->
+                <header>
+                    <h3 class="h6">{% trans 'Latest Posts' %}</h3>
+                </header>
+                <div class="widget latest-posts">
+                    {% for post in latest_posts %}
+                        <div class="blog-posts">
+                            <a href="{% url 'post-detail' post.id post.slug %}">
+                                <div class="item d-flex align-items-center">
+                                    <div class="image"><img src="{{ post.image.url }}" alt="..." class="img-fluid">
+                                    </div>
+                                    <div class="title"><strong>{{ post.title }}</strong>
+                                        <div class="d-flex align-items-center">
+
+                                            <div class="views">
+                                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye"
+                                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                          d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.134 13.134 0 0 0 1.66 2.043C4.12 11.332 5.88 12.5 8 12.5c2.12 0 3.879-1.168 5.168-2.457A13.134 13.134 0 0 0 14.828 8a13.133 13.133 0 0 0-1.66-2.043C11.879 4.668 10.119 3.5 8 3.5c-2.12 0-3.879 1.168-5.168 2.457A13.133 13.133 0 0 0 1.172 8z"/>
+                                                    <path fill-rule="evenodd"
+                                                          d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                                                </svg>
+                                                {{ total_views }} view{{ total_views|pluralize }}
+                                            </div>
+                                            <div class="comments"><i class="icon-comment"></i>{{ post.comments.count }}
+  <div class="date"><i class="icon-clock"></i>{{ post.date_posted|date:"F d, Y" }}
+                                            </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a></div>
+                    {% empty %}
+                        <h2>{% trans 'No latest posts' %}</h2>
+                    {% endfor %}
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="{% static '/blog/js/../../../static/django_extensions/js/jquery-2.2.4.min.js' %}"></script>
+    <script src="{% static 'blog/js/../../../static/django_extensions/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'blog/js/../../../static/django_extensions/js/infinite.min.js' %}"></script>
+    <script>
+        $(document).ready(function () {
+            let infinite = new Waypoint.Infinite({
+                element: $('.infinite-container')[0],
+                handler: function (direction) {
+                },
+                offset: 'bottom-in-view' + 500,
+                onBeforePageLoad: function () {
+                    $('.loading').show();
+                },
+                onAfterPageLoad: function () {
+                    $('.loading').hide();
+                }
+            });
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_filters %}
+{% load i18n %}
+
+{% block title %}{% trans 'Search' %}{% endblock %}
+{% block content %}
+  {% if search %}
+    <h1>{% trans 'Posts containing' %} "{{ search }}"</h1>
+      <h3 class="mb-4">
+        {% with results.count as total_results %}
+          {% trans 'Found' %} {{ total_results }} {% trans 'result' %}{{ total_results|pluralize }}
+        {% endwith %}
+      </h3>
+      {% for post in results %}
+        <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+        {{ post.description|truncatewords_html:5|safe }}
+      {% empty %}
+          <p>{% trans 'There are no results for your search' %}</p>
+      {% endfor %}
+  {% else %}
+                <div class="widget search">
+                    <header>
+                        <h3 class="h6">{% trans 'Search the blog' %}</h3>
+                    </header>
+                    <form method="get" class="search-form">
+                        <div class="form-group">
+                            {{ form.as_p }}
+{#                            <input type="search" placeholder="What are you looking for?">#}
+                            <button type="submit" class="submit"><i class="icon-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+  {% endif %}
+{% endblock %}

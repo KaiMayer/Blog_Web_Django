@@ -1,0 +1,36 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_filters %}
+{% load i18n %}
+{% block content %}
+    {% if user.is_authenticated %}
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script type="text/javascript">
+              var onloadCallback = function() {
+                grecaptcha.render('html_element', {
+                  'sitekey' : '6LeLIv8UAAAAAMM4WNE7WPdVZ2n5iLfWLUOeAHQX'
+                });
+              };
+        </script>
+        <div class="content-section">
+            <form id="form" action="?" class="form-group" method="POST"  onsubmit="Submit.disabled = true; return true;">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                <legend class="border-bottom mb-4">{% trans 'Leave Your Comment' %}</legend>
+                {{ comment_form|crispy }}
+                <div class="g-recaptcha" data-sitekey="6LeLIv8UAAAAAMM4WNE7WPdVZ2n5iLfWLUOeAHQX" data-callback="recaptcha_callback"></div>
+                    <br/>
+                <input type="submit" name="Submit" disabled="disabled" id="post_comment_btn" value="Submit" data-callback="correctCaptcha" class="form-control form-control-lg" placeholder="col-form-label-lg">
+                </fieldset>
+            </form>
+        </div>
+    {% else %}
+        <h2>{% trans 'Please login in order to post the comment'%}</h2>
+        <a class="ml-2" href="{% url 'login' %}"><h2>{% trans 'Login'%}</h2></a>
+    {% endif %}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+           function recaptcha_callback() {
+           $('#post_comment_btn').removeAttr('disabled');
+            }
+     </script>
+{% endblock content %}

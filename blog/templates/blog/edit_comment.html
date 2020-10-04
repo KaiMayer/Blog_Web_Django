@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_filters %}
+{% load i18n %}
+{% block content %}
+        <div class="content-section">
+            <form  class="form-group" action="{% url 'edit_comment' comment.post.id comment.post.slug comment.id %}" method="post" onsubmit="Submit.disabled = true; return true;">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                <legend class="border-bottom mb-4">{% trans 'Update Your Comment' %}</legend>
+                {{ form|crispy }}
+                <p><input type="submit" name="Submit" value="{% trans 'Save' %}" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg"></p>
+                </fieldset>
+            </form>
+        </div>
+{% endblock content %}
+
